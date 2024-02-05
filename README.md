@@ -2,4 +2,4 @@
 
 This is the build version of my personal website.
 
-Check it out here: [https://freddyl.me](https://freddyl.me)
+Check it out here: [https://freddyliu06.github.io](https://freddyliu06.github.io)
