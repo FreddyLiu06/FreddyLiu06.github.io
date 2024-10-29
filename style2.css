@@ -1,0 +1,115 @@
+body, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter";
+    font-weight: 300;
+    
+    background-color: #FFFFFF;
+    color: #555;
+    margin: 0 auto;
+    max-width: 48em;
+    padding: 2em 1em;
+}
+
+section {
+    margin: 20px 0px;
+}
+
+header {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+header p {
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin-right: 20px;
+}
+
+p {
+    padding: 5px 0px 5px 0px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.highlight {
+    color: #ff0000;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: none;
+    white-space: nowrap;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+ul li {
+    list-style-position: inside;
+ }
+
+img, video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    object-fit: cover; /* Crop and cover the container */
+    object-position: 50% 20%; /* Center the image in the container */
+
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+video {
+    padding: 2px;
+    object-position: 50% 50%;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    grid-gap: 50px; /* Add space between grid items */
+    padding: 10px 0px 10px 0px;
+}
+
+.video-container {
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover; /* Crop and cover the container */
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.video-container:hover {
+    border: 1px solid #0000ff;
+}
+
+@media (max-width: 600px) {
+    .columns {
+        display: block;
+        margin-bottom: 20px;
+    }
+    img {
+        margin-bottom: 20px;
+        height: 70vw;
+    }
+    .video-container {
+        margin-bottom: 20px;
+    }
+}
