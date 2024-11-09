@@ -103,6 +103,15 @@ img {
     margin-bottom: 0;
 }
 
+.name {
+    color: #333;
+    text-decoration: none;
+}
+
+.name:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 600px) {
     .publications {
         display: block;
