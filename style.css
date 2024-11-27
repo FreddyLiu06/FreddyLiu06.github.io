@@ -112,6 +112,10 @@ img {
     text-decoration: underline;
 }
 
+.highlight {
+    color: #aa0000;
+}
+
 @media (max-width: 600px) {
     .publications {
         display: block;
