@@ -96,9 +96,9 @@ img {
 
 .publications {
     display:grid;
-    grid-template-columns: 1fr 2.5fr;
+    grid-template-columns: 1fr 2.2fr;
     grid-gap: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 2.5em;
 }
 
 .paper_info h3 {
