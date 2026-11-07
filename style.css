@@ -60,6 +60,7 @@ ul {
 #news li {
     display: flex;
     gap: 0.4em;
+    margin-bottom: 0.6em;
 }
 
 #news li b {
